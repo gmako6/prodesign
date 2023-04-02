@@ -1,7 +1,5 @@
 import React from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
-import { useNavigate } from "react-router-dom";
-import logo from "../../assets/logo/logo.svg";
 import "@splidejs/react-splide";
 
 export const Rp = () => {

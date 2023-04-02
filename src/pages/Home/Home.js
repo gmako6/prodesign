@@ -7,7 +7,6 @@ import {
   Roadmap,
   SubAbout,
   UAbout,
-  PFolio,
 } from "../../contents";
 
 function Home() {
