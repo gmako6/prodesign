@@ -1,0 +1,3 @@
+.glass-SC {
+  @apply md:bg-white md:backdrop-blur-3xl md:bg-opacity-50;
+}
