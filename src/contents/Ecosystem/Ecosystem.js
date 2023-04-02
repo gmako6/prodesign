@@ -164,9 +164,7 @@ function Ecosystem() {
                         />
                       </svg>
                     </span>
-                    <h1 className="text-xl font-bold uppercase">
-                      MIGRATION V2
-                    </h1>
+                    <h1 className="text-xl font-bold uppercase">Airdrop</h1>
                   </div>
                   <div className="flex flex-col items-center justify-center pt-5">
                     <div className="w-full max-w-sm px-4">
@@ -174,11 +172,13 @@ function Ecosystem() {
                         for="swap"
                         className="block font-medium text-gray-700 text-center"
                       >
-                        SUCCOR V1
+                        SUCCOR V2
                       </label>
                       <input
                         type="number"
-                        className="mt-1 text-center py-2 px-1 block w-full rounded-full border-gray-300 shadow-sm border-pink-500/75  focus:outline-none "
+                        placeholder="200000"
+                        disabled
+                        className="read-only mt-1 text-center py-2 px-1 block w-full rounded-full border-gray-300 shadow-sm border-pink-500/75  focus:outline-none "
                       />
                     </div>
                   </div>
@@ -189,7 +189,7 @@ function Ecosystem() {
                       }}
                       className="py-3 px-10 m-2 md:mt-5 text-m md:flex bg-gradient-to-r from-pink-500 to-fuchsia-400 hover:bg-gradient-to-l  rounded-full shadow-lg text-white font-bold transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-800 hover:animate-pulse"
                     >
-                      Swap
+                      Claim
                     </button>
                   </span>
                 </div>
@@ -209,20 +209,20 @@ function Ecosystem() {
                     <span className="text-6xl text-pink-500 drop-shadow-lg pr-5">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
                         viewBox="0 0 24 24"
-                        fill="currentColor"
-                        class="w-8 h-8"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6"
                       >
                         <path
-                          fill-rule="evenodd"
-                          d="M2.25 4.5A.75.75 0 013 3.75h14.25a.75.75 0 010 1.5H3a.75.75 0 01-.75-.75zm0 4.5A.75.75 0 013 8.25h9.75a.75.75 0 010 1.5H3A.75.75 0 012.25 9zm15-.75A.75.75 0 0118 9v10.19l2.47-2.47a.75.75 0 111.06 1.06l-3.75 3.75a.75.75 0 01-1.06 0l-3.75-3.75a.75.75 0 111.06-1.06l2.47 2.47V9a.75.75 0 01.75-.75zm-15 5.25a.75.75 0 01.75-.75h9.75a.75.75 0 010 1.5H3a.75.75 0 01-.75-.75z"
-                          clip-rule="evenodd"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z"
                         />
                       </svg>
                     </span>
-                    <h1 className="text-xl font-bold uppercase">
-                      MIGRATION V2
-                    </h1>
+                    <h1 className="text-xl font-bold uppercase">STAKE</h1>
                   </div>
                   <div className="flex flex-col items-center justify-center pt-5">
                     <div className="w-full max-w-sm px-4">
@@ -230,7 +230,7 @@ function Ecosystem() {
                         for="swap"
                         className="block font-medium text-gray-700 text-center"
                       >
-                        SUCCOR V1
+                        APY : 45%
                       </label>
                       <input
                         type="number"
@@ -245,14 +245,14 @@ function Ecosystem() {
                       }}
                       className="py-3 px-10 m-2 md:mt-5 text-m md:flex bg-gradient-to-r from-pink-500 to-fuchsia-400 hover:bg-gradient-to-l  rounded-full shadow-lg text-white font-bold transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-800 hover:animate-pulse"
                     >
-                      Swap
+                      Stake
                     </button>
                   </span>
                 </div>
                 <div className="flex flex-col justify-center md:justify-items-start justify-items-center col-span-2">
-                  <h1 className="text-4xl  font-bold md:text-5xl">Swap Ease</h1>
+                  <h1 className="text-4xl  font-bold md:text-5xl">Earn Ease</h1>
                   <p className="mt-5 object-contain text-justify font-medium text-slate-900">
-                    Simplifying migration from SUCCOR V1 to SUCCOR V2.
+                    Get high yields from your own bank with best APYs.
                   </p>
                   <span className="flex pt-3">
                     <button
@@ -261,7 +261,7 @@ function Ecosystem() {
                       }}
                       className="py-3 px-10 m-2 md:mt-5 text-m md:flex bg-gradient-to-r from-pink-500 to-fuchsia-400 hover:bg-gradient-to-l  rounded-full shadow-lg text-white font-bold transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-800 hover:animate-pulse"
                     >
-                      Swap
+                      Go.
                     </button>
                   </span>
                 </div>
