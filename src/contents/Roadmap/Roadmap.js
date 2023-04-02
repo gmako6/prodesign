@@ -10,13 +10,13 @@ function Roadmap() {
         <div className="container mx-auto">
           <div>
             <Splide
-              hasTrack={true}
               options={{
                 type: "loop",
                 perPage: 3,
                 perMove: 1,
                 focus: "center",
                 gap: "2rem",
+                autoplay: false,
                 breakpoints: {
                   786: {
                     perPage: 2,
