@@ -10,18 +10,20 @@ function UAbout() {
     <div className="container mx-auto">
       <div className="mt-20 pl-5 pr-5 md:pl-0 md:pr-0 ">
         {/**About Succorcoin */}
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-3 ">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-3 items-center">
           {/*RightSide of the Section */}
           <div className="">
             <img
-              className="motion-safe:animate-spin h-42"
+              className="motion-safe:animate-spin"
+              width={300}
+              height="auto"
               src={logo}
               alt="UAbout"
             />
           </div>
 
           {/*LeftSide of the Section */}
-          <div className="md:col-span-2 pl-5 pr-5 md:pl-10 md:pr-10 pt-12 pb-12 bg-red-100  grid justify-items-center md:justify-items-start justify-center rounded-br-3xl rounded-tl-3xl bg-opacity-40">
+          <div className="md:col-span-2 pl-5 pr-5 md:pl-10 md:pr-10 pt-12 pb-12 bg-red-100  grid justify-items-center md:justify-items-start items-center rounded-br-3xl rounded-tl-3xl bg-opacity-40">
             <h1 className="text-4xl  font-medium md:text-5xl">
               Revolutionary Token On BSC Network
             </h1>
