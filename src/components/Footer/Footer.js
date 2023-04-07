@@ -19,7 +19,7 @@ function Footer() {
 
   return (
     <div className="mx-auto bottom-0 left-0 bg-[url('./assets/contentImages/blob-scatter.svg')] bg-no-repeat bg-cover @apply backdrop-blur-2xl bg-opacity-50 w-full ">
-      <div className="pl-5 pr-5 pt-20 pb-20 md:pr-20 md:pl-20  text-black text-bold">
+      <div className="container mx-auto pl-5 pr-5 pt-20 pb-20 md:pr-20 md:pl-20  text-black text-bold">
         <div className="grid grid-cols-1 gap-6 md:grid-cols-5">
           {/* Brand Logo */}
           <div className="col-span-2">

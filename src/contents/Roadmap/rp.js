@@ -52,6 +52,17 @@ export const Rp = () => {
           </div>
         </SplideSlide>
       </Splide>
+      <div>
+        <a
+          href="https://www.sortlist.com/agency/pro-design-tz"
+          style="display:inline-block; width:140px; height:40px;"
+        >
+          <img
+            src="https://core.sortlist.com//_/apps/core/images/badges-en/badge-flag-blue-light-xs.svg"
+            alt="flag"
+          />
+        </a>
+      </div>
     </div>
   );
 };

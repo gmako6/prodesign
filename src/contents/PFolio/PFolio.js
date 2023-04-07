@@ -3,9 +3,6 @@ import "./PFolio.css";
 import { useNavigate } from "react-router-dom";
 
 function PFolio() {
-  //Function to trigger page route
-  //ffffff
-  //ece9e6
   let navigate = useNavigate();
 
   return (
@@ -87,7 +84,7 @@ function PFolio() {
                                     />
                                   </svg>
                                   Airdrop Launching
-                                </li>{" "}
+                                </li>
                                 <li className="flex text-fuchsia-400">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
